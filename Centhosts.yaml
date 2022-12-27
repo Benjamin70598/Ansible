@@ -1,0 +1,13 @@
+all: 
+  hosts: 
+    150.136.58.66:
+  children:
+    webservers: 
+      hosts:
+        129.213.184.182:
+        129.213.136.148:
+    dbservers:
+      hosts:
+        129.213.166.121:
+        
+
